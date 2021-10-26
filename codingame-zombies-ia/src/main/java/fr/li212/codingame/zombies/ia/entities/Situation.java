@@ -28,4 +28,11 @@ public class Situation {
     public Collection<Human> getHumans() {
         return humans;
     }
+
+    @Override
+    public String toString() {
+        return "Situation{" +
+                "zombies=" + zombies +
+                '}';
+    }
 }

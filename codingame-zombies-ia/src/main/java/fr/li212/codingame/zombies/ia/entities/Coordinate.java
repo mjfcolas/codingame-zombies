@@ -20,6 +20,10 @@ public class Coordinate {
         return y;
     }
 
+    public int squareDistance(final Coordinate otherCoordinate) {
+        return (int)(Math.pow(otherCoordinate.getX() - this.x, 2) + Math.pow(otherCoordinate.getY() -this.y, 2));
+    }
+
     @Override
     public boolean equals(final Object o) {
         if (this == o) return true;

@@ -18,4 +18,5 @@ public class Zombie implements Actor {
     public Coordinate getNextCoordinates() {
         return nextCoordinates;
     }
+
 }
