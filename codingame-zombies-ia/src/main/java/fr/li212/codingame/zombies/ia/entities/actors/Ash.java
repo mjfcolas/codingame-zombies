@@ -2,7 +2,7 @@ package fr.li212.codingame.zombies.ia.entities.actors;
 
 import fr.li212.codingame.zombies.ia.entities.Coordinate;
 
-public class Ash {
+public class Ash implements Actor {
     private final Coordinate coordinate;
 
     public Ash(final Coordinate coordinate) {
